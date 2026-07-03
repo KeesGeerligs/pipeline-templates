@@ -3,7 +3,7 @@
   "type": "container",
   "global": {
     "variables": {
-      "MODEL": "qwen3.5:9b"
+      "MODEL": "qwen3.6:27b"
     }
   },
   "ops": [
@@ -39,7 +39,7 @@
   "meta": {
     "trigger": "dashboard",
     "system_requirements": {
-      "vram_total_mb": 9216
+      "vram_total_mb": 23552
     }
   }
 }

@@ -3,12 +3,12 @@
   "type": "container",
   "global": {
     "variables": {
-      "MODEL": "qwen3.6:35b-a3b"
+      "MODEL": "qwen3.6:35b-a3b-bf16"
     }
   },
   "ops": [
     {
-      "id": "Qwen3-6-35b-a3b",
+      "id": "server",
       "type": "container/run",
       "args": {
         "gpu": true,
@@ -39,7 +39,7 @@
   "meta": {
     "trigger": "dashboard",
     "system_requirements": {
-      "vram_total_mb": 26624
+      "vram_total_mb": 76800
     }
   }
 }
